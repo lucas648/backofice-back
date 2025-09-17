@@ -1,6 +1,6 @@
 package com.example.backoffice.controller;
 
-import com.example.backoffice.model.Product;
+import com.example.backoffice.model.Product; // Ensure this import matches the actual package of the Product class
 import com.example.backoffice.service.ProductService;
 import org.springframework.web.bind.annotation.*;
 
