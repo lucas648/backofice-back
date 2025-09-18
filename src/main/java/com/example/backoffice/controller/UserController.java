@@ -2,6 +2,8 @@ package com.example.backoffice.controller;
 
 import com.example.backoffice.model.User;
 import com.example.backoffice.service.UserService;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,7 +12,6 @@ import java.util.List;
 @RequestMapping("/api/users")
 @CrossOrigin(origins = "*")
 public class UserController {
-
     private final UserService service;
 
     public UserController(UserService service) {
